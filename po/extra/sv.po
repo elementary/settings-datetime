@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-12 09:16+0000\n"
-"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"PO-Revision-Date: 2025-10-22 09:06+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "datetime-extra/sv/>\n"
@@ -34,7 +34,7 @@ msgstr "elementary, Inc."
 #: data/datetime.metainfo.xml.in:34 data/datetime.metainfo.xml.in:47
 #: data/datetime.metainfo.xml.in:60 data/datetime.metainfo.xml.in:77
 msgid "Minor updates"
-msgstr ""
+msgstr "Mindre uppdateringar"
 
 #: data/datetime.metainfo.xml.in:36 data/datetime.metainfo.xml.in:50
 #: data/datetime.metainfo.xml.in:64 data/datetime.metainfo.xml.in:71
@@ -44,7 +44,7 @@ msgstr "Uppdaterade översättningar"
 
 #: data/datetime.metainfo.xml.in:49
 msgid "Improved screen reader support"
-msgstr ""
+msgstr "Förbättrat stöd för skärmläsare"
 
 #: data/datetime.metainfo.xml.in:62
 msgid "Move timezone popover contents to the main view"
