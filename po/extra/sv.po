@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-12 09:16+0000\n"
-"PO-Revision-Date: 2025-10-22 09:59+0000\n"
+"PO-Revision-Date: 2025-10-30 09:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "datetime-extra/sv/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: data/datetime.metainfo.xml.in:10
 msgid "Date &amp; Time Settings"
-msgstr "Datum och tidsinställningar"
+msgstr "Inställningar för datum och tid"
 
 #: data/datetime.metainfo.xml.in:11
 msgid "Configure date, time, and select time zone"
