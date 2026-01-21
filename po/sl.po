@@ -7,9 +7,9 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-12 09:16+0000\n"
-"PO-Revision-Date: 2024-08-06 22:22+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Slovenian <https://l10n.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2026-01-22 21:55+0000\n"
+"Last-Translator: Jernej Virag <jernej@virag.si>\n"
+"Language-Team: Slovenian <https://l10n.elementaryos.org/projects/settings/"
 "datetime/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
 #: src/MainView.vala:34 src/MainView.vala:98 src/Plug.vala:32
@@ -29,8 +29,6 @@ msgid "Appearance"
 msgstr "Izgled"
 
 #: src/MainView.vala:45
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
 msgstr "Oblika za čas:"
 
@@ -48,31 +46,27 @@ msgstr "Časovni pas"
 
 #: src/MainView.vala:67
 msgid "Based on location"
-msgstr ""
+msgstr "Glede na lokacijo"
 
 #: src/MainView.vala:71
-#, fuzzy
-#| msgid "Automatically update time zone"
 msgid "Automatically updates the time zone when activated"
 msgstr "Samodejno posodobi časovni pas"
 
 #: src/MainView.vala:100
 msgid "Set automatically"
-msgstr ""
+msgstr "Samodejno"
 
 #: src/MainView.vala:123 src/Plug.vala:72
-#, fuzzy
-#| msgid "Show week numbers"
 msgid "Show Week Numbers"
-msgstr "Prikaži številko tedna"
+msgstr "Prikaži številke tedna"
 
 #: src/MainView.vala:126
 msgid "e.g. in Calendar and the Date &amp; Time Panel indicator"
-msgstr ""
+msgstr "npr. v koledarju in indikatorju datuma in časa"
 
 #: src/MainView.vala:133
 msgid "Show in Panel:"
-msgstr ""
+msgstr "Prikaži v vrhnji plošči:"
 
 #: src/MainView.vala:137
 msgid "Date"
@@ -80,11 +74,11 @@ msgstr "Datum"
 
 #: src/MainView.vala:138
 msgid "Day of the week"
-msgstr ""
+msgstr "Dan v tednu"
 
 #: src/MainView.vala:139
 msgid "Seconds"
-msgstr ""
+msgstr "Sekunde"
 
 #: src/Plug.vala:33
 msgid "Configure date, time, and select time zone"
@@ -295,10 +289,8 @@ msgstr "Amerika/Argentina/Catamarca"
 
 #. /Translators: Comment for Timezone America/Argentina/Catamarca
 #: src/Translations.vala:81
-#, fuzzy
-#| msgid "Catamarca (CT); Chubut (CH)"
 msgid "Catamarca (CT), Chubut (CH)"
-msgstr "Catamarca (CT); Chubut (CH)"
+msgstr "Catamarca (CT), Chubut (CH)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:83
@@ -1389,15 +1381,13 @@ msgstr "Evropa/Gibraltar"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:509
-#, fuzzy
-#| msgid "America/Nassau"
 msgid "America/Nuuk"
-msgstr "Amerika/Nassau"
+msgstr "Amerika/Nuuk"
 
 #. /Translators: Comment for Timezone America/Nuuk
 #: src/Translations.vala:511
 msgid "most of Greenland"
-msgstr ""
+msgstr "večina Grenlandije"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:513
