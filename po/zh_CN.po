@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-12 09:16+0000\n"
+"POT-Creation-Date: 2026-06-02 04:57+0000\n"
 "PO-Revision-Date: 2025-08-10 04:55+0000\n"
 "Last-Translator: JieXu <xujie0739@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
@@ -647,7 +647,8 @@ msgstr "美洲/圣保罗"
 #. /Translators: Comment for Timezone America/Sao_Paulo
 #: src/Translations.vala:223
 msgid "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
-msgstr "巴西（东南部：戈亚斯、联邦区、米纳斯吉拉斯、埃斯皮里图、里约热内卢、圣保罗、"
+msgstr ""
+"巴西（东南部：戈亚斯、联邦区、米纳斯吉拉斯、埃斯皮里图、里约热内卢、圣保罗、"
 "巴拉那、圣卡塔琳娜、南里奥格兰德）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".

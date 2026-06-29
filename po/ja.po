@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-12 09:16+0000\n"
+"POT-Creation-Date: 2026-06-02 04:57+0000\n"
 "PO-Revision-Date: 2024-08-13 10:16+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
@@ -770,7 +770,8 @@ msgstr "アメリカ/ハリファックス"
 #. /Translators: Comment for Timezone America/Halifax
 #: src/Translations.vala:273
 msgid "Atlantic - NS (most areas), PE"
-msgstr "大西洋 - ノバスコシア州 (ほとんどの地域)、プリンスエドワードアイランド州"
+msgstr ""
+"大西洋 - ノバスコシア州 (ほとんどの地域)、プリンスエドワードアイランド州"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:275
@@ -840,7 +841,8 @@ msgstr "アメリカ/アティコカン"
 #. /Translators: Comment for Timezone America/Atikokan
 #: src/Translations.vala:301
 msgid "EST - ON (Atikokan), NU (Coral H)"
-msgstr "東部標準時 - オンタリオ州 (アティコーカン)、ヌナブト準州 (コーラル・ハーバー)"
+msgstr ""
+"東部標準時 - オンタリオ州 (アティコーカン)、ヌナブト準州 (コーラル・ハーバー)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:303
@@ -900,8 +902,9 @@ msgstr "アメリカ/エドモントン"
 #. /Translators: Comment for Timezone America/Edmonton
 #: src/Translations.vala:325
 msgid "Mountain - AB, BC(E), NT(E), SK(W)"
-msgstr "山岳部標準時 - アルバータ州、ブリティッシュコロンビア州 (東部)、"
-"ノースウエスト準州 (東部)、サスカチュワン州 (西部)"
+msgstr ""
+"山岳部標準時 - アルバータ州、ブリティッシュコロンビア州 (東部)、ノースウエス"
+"ト準州 (東部)、サスカチュワン州 (西部)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:327
@@ -1504,7 +1507,8 @@ msgstr "アジア/マカッサル"
 #: src/Translations.vala:565
 msgid ""
 "Borneo (east, south), Sulawesi/Celebes, Bali, Nusa Tengarra, Timor (west)"
-msgstr "ボルネオ (東部、南部)、スラウェシ/セレベス、バリ、ヌサトゥンガラ、ティモール "
+msgstr ""
+"ボルネオ (東部、南部)、スラウェシ/セレベス、バリ、ヌサトゥンガラ、ティモール "
 "(西部)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".

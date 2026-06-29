@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-12 09:16+0000\n"
+"POT-Creation-Date: 2026-06-02 04:57+0000\n"
 "PO-Revision-Date: 2024-10-07 08:07+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -645,8 +645,9 @@ msgstr "美洲/聖保羅"
 #. /Translators: Comment for Timezone America/Sao_Paulo
 #: src/Translations.vala:223
 msgid "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
-msgstr "巴西（東南部：戈亞斯、聯邦區、米納斯吉拉斯、聖埃斯皮里圖、里約熱內盧、聖保羅"
-"、巴拉那、聖卡塔琳娜、南大河）"
+msgstr ""
+"巴西（東南部：戈亞斯、聯邦區、米納斯吉拉斯、聖埃斯皮里圖、里約熱內盧、聖保"
+"羅、巴拉那、聖卡塔琳娜、南大河）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:225
@@ -901,7 +902,8 @@ msgstr "美洲/艾德蒙頓"
 #. /Translators: Comment for Timezone America/Edmonton
 #: src/Translations.vala:325
 msgid "Mountain - AB, BC(E), NT(E), SK(W)"
-msgstr "山區標準時間 - 亞伯達、英屬哥倫比亞（東）、西北地區（東）、薩克其萬（西）"
+msgstr ""
+"山區標準時間 - 亞伯達、英屬哥倫比亞（東）、西北地區（東）、薩克其萬（西）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:327
@@ -1502,7 +1504,8 @@ msgstr "亞洲/錫江"
 #: src/Translations.vala:565
 msgid ""
 "Borneo (east, south), Sulawesi/Celebes, Bali, Nusa Tengarra, Timor (west)"
-msgstr "婆羅洲（東部、南部）、蘇拉威西/西里伯島、峇里島、努沙登加拉群島、帝汶（西）"
+msgstr ""
+"婆羅洲（東部、南部）、蘇拉威西/西里伯島、峇里島、努沙登加拉群島、帝汶（西）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:567
