@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-12 09:16+0000\n"
+"POT-Creation-Date: 2026-06-02 04:57+0000\n"
 "PO-Revision-Date: 2024-09-02 05:42+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -20,7 +20,9 @@ msgstr ""
 "X-Generator: Weblate 5.6.2\n"
 
 #: data/datetime.metainfo.xml.in:10
-msgid "Date &amp; Time Settings"
+#, fuzzy
+#| msgid "Date &amp; Time Settings"
+msgid "Date & Time Settings"
 msgstr "日期和時間設定"
 
 #: data/datetime.metainfo.xml.in:11

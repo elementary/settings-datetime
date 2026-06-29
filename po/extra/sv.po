@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-12 09:16+0000\n"
+"POT-Creation-Date: 2026-06-02 04:57+0000\n"
 "PO-Revision-Date: 2025-10-30 09:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
@@ -20,7 +20,9 @@ msgstr ""
 "X-Generator: Weblate 5.11.4\n"
 
 #: data/datetime.metainfo.xml.in:10
-msgid "Date &amp; Time Settings"
+#, fuzzy
+#| msgid "Date &amp; Time Settings"
+msgid "Date & Time Settings"
 msgstr "Inställningar för datum och tid"
 
 #: data/datetime.metainfo.xml.in:11

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-12 09:16+0000\n"
+"POT-Creation-Date: 2026-06-02 04:57+0000\n"
 "PO-Revision-Date: 2021-07-01 18:13+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -20,7 +20,9 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 
 #: data/datetime.metainfo.xml.in:10
-msgid "Date &amp; Time Settings"
+#, fuzzy
+#| msgid "Date &amp; Time Settings"
+msgid "Date & Time Settings"
 msgstr "Dato og tidsinnstillinger"
 
 #: data/datetime.metainfo.xml.in:11
