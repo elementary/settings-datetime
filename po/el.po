@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-02 04:57+0000\n"
-"PO-Revision-Date: 2026-06-29 01:01+0000\n"
+"PO-Revision-Date: 2026-07-10 16:00+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/"
 "datetime/el/>\n"
@@ -51,6 +51,7 @@ msgstr "Βάσει τοποθεσίας"
 #: src/MainView.vala:71
 msgid "Automatically updates the time zone when activated"
 msgstr ""
+"Όταν είναι ενεργοποιημένη αυτή η επιλογή, η ζώνη ώρας ενημερώνεται αυτόματα"
 
 #: src/MainView.vala:100
 msgid "Set automatically"
