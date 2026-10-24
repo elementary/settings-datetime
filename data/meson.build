@@ -5,3 +5,8 @@ i18n.merge_file(
     install_dir: datadir / 'metainfo',
     install: true
 )
+
+gresource = gnome.compile_resources(
+    'gresource',
+    'gresource.xml'
+)
