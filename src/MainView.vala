@@ -280,13 +280,17 @@ public class DateTime.MainView : Switchboard.SettingsPage {
             }, () => { return true; }, null, null
         );
 
-        time_zone_settings.changed["automatic-timezone"].connect (() => {
-            if (time_zone_settings.get_boolean ("automatic-timezone")) {
-                auto_time_zone_icon.css_classes = {Granite.STYLE_CLASS_ACCENT, "purple"};
-            } else {
-                auto_time_zone_icon.css_classes = {""};
-            }
-        });
+        time_zone_settings.bind_with_mapping ("automatic-timezone", auto_time_zone_icon, "css-classes", GET | BindingFlags.SYNC_CREATE,
+            (value, variant, user_data) => {
+                string[] array = {""};
+                if (variant.get_boolean ()) {
+                    array = {Granite.CssClass.ACCENT, "purple"};
+                }
+                value.set_boxed (array);
+
+                return true;
+            }, () => { return true; }, null, null
+        );
     }
 
     private async void setup_time_format () {
