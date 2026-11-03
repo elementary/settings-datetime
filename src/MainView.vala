@@ -58,11 +58,9 @@ public class DateTime.MainView : Switchboard.SettingsPage {
 
         var time_zone_label = new Granite.HeaderLabel (_("Time Zone"));
 
-        var auto_time_zone_icon = new Gtk.Image.from_icon_name ("location-inactive-symbolic") {
+        var auto_time_zone_icon = new DateTime.Symbol ("/io/elementary/settings/datetime/location.svg") {
             pixel_size = 24
         };
-        auto_time_zone_icon.add_css_class (Granite.STYLE_CLASS_ACCENT);
-        auto_time_zone_icon.add_css_class ("purple");
 
         var auto_time_zone_label = new Gtk.Label (_("Based on location")) {
             halign = Gtk.Align.START
@@ -275,11 +273,24 @@ public class DateTime.MainView : Switchboard.SettingsPage {
         time_zone_settings.bind ("automatic-timezone", auto_time_zone_radio, "active", SettingsBindFlags.DEFAULT);
         time_zone_settings.bind ("automatic-timezone", time_zone_picker, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
 
-        time_zone_settings.bind_with_mapping ("automatic-timezone", auto_time_zone_icon, "icon-name", GET,
+        time_zone_settings.bind_with_mapping ("automatic-timezone", auto_time_zone_icon, "state", GET,
             (value, variant, user_data) => {
-                value.set_string (variant.get_boolean () ? "location-active-symbolic" : "location-inactive-symbolic");
+                value.set_string (variant.get_boolean () ? DateTime.SymbolState.ACTIVE : DateTime.SymbolState.DISABLED);
                 return true;
-            }, () => { return true; }, null, null
+            }, () => { return null; }, null, null
+        );
+
+        time_zone_settings.bind_with_mapping ("automatic-timezone", auto_time_zone_icon, "css-classes", GET,
+            (value, variant, user_data) => {
+                string[] array = {""};
+                if (variant.get_boolean ()) {
+                    array = {Granite.CssClass.ACCENT, "purple"};
+                }
+
+                value.set_boxed (array);
+
+                return true;
+            }, () => { return null; }, null, null
         );
     }
 

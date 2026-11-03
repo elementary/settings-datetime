@@ -5,6 +5,7 @@ plug_files = files(
     'DateTime1.vala',
     'CurrentTimeManager.vala',
     'PantheonAccountsServicePlugin.vala',
+    'Widgets/Symbol.vala',
     'Widgets/TimeZoneGrid.vala'
 )
 
@@ -14,13 +15,14 @@ switchboard_plugsdir = switchboard_dep.get_pkgconfig_variable('plugsdir', define
 shared_module(
     meson.project_name(),
     plug_files,
+    gresource,
     config_file,
     dependencies: [
         dependency('glib-2.0'),
         dependency('gio-2.0'),
         dependency('gobject-2.0'),
         dependency('granite-7'),
-        dependency('gtk4'),
+        dependency('gtk4', version: '>=4.20'),
         dependency('libadwaita-1', version: '>=1.4.0'),
         dependency('libical-glib'),
         meson.get_compiler('vala').find_library('posix'),
