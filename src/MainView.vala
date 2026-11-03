@@ -280,7 +280,7 @@ public class DateTime.MainView : Switchboard.SettingsPage {
             }, () => { return true; }, null, null
         );
 
-        time_zone_settings.bind_with_mapping ("automatic-timezone", auto_time_zone_icon, "css-classes", GET | BindingFlags.SYNC_CREATE,
+        time_zone_settings.bind_with_mapping ("automatic-timezone", auto_time_zone_icon, "css-classes", GET,
             (value, variant, user_data) => {
                 string[] array = {""};
                 if (variant.get_boolean ()) {
