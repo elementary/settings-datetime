@@ -286,6 +286,7 @@ public class DateTime.MainView : Switchboard.SettingsPage {
                 if (variant.get_boolean ()) {
                     array = {Granite.CssClass.ACCENT, "purple"};
                 }
+
                 value.set_boxed (array);
 
                 return true;
