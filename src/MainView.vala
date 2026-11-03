@@ -273,7 +273,7 @@ public class DateTime.MainView : Switchboard.SettingsPage {
         time_zone_settings.bind ("automatic-timezone", auto_time_zone_radio, "active", SettingsBindFlags.DEFAULT);
         time_zone_settings.bind ("automatic-timezone", time_zone_picker, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
 
-        time_zone_settings.bind_with_mapping ("automatic-timezone", auto_time_zone_icon, "state", GET | BindingFlags.SYNC_CREATE,
+        time_zone_settings.bind_with_mapping ("automatic-timezone", auto_time_zone_icon, "state", GET,
             (value, variant, user_data) => {
                 value.set_string (variant.get_boolean () ? DateTime.SymbolState.ACTIVE : DateTime.SymbolState.DISABLED);
                 return true;
