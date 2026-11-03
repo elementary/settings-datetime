@@ -289,7 +289,7 @@ public class DateTime.MainView : Switchboard.SettingsPage {
                 value.set_boxed (array);
 
                 return true;
-            }, () => { return true; }, null, null
+            }, () => { return null; }, null, null
         );
     }
 
