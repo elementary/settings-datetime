@@ -277,7 +277,7 @@ public class DateTime.MainView : Switchboard.SettingsPage {
             (value, variant, user_data) => {
                 value.set_string (variant.get_boolean () ? DateTime.SymbolState.ACTIVE : DateTime.SymbolState.DISABLED);
                 return true;
-            }, () => { return true; }, null, null
+            }, () => { return null; }, null, null
         );
 
         time_zone_settings.bind_with_mapping ("automatic-timezone", auto_time_zone_icon, "css-classes", GET,
